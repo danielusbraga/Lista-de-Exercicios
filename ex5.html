@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const custofabrica = Number(prompt('insira o custo de fabrica'))
+        const custodistribuidor = Number(prompt('insira o custo de distribuidor'))
+        const custoimposto = Number(prompt('insira o custo de imposto'))
+
+        const distribuidor = custofabrica * (custodistribuidor / 100 )
+        const imposto = custofabrica * (custoimposto / 100)
+
+        const custoTotal = custofabrica + distribuidor + imposto
+        console.log(custoTotal)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

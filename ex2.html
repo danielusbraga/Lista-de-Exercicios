@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const total = Number(prompt('digite aqui o total de eleitores'))
+        const validos = Number(prompt('digite aqui o total de validos'))
+        const nulos = Number(prompt('digite aqui o total de nulos'))
+        const brancos = Number(prompt('digite aqui o total de brancos'))
+
+        const percentBranco = brancos / total * 100
+        const percentNulo = nulos / total * 100
+        const percentValido = validos / total * 100
+
+        console.log("Brancos" + percentBranco)
+        console.log("Nulos" + percentNulo)
+        console.log("Válidos" + percentValido)
+
+        const soma = brancos + nulos + validos
+        if (soma > total) {
+
+        } else {
+
+            const percentBranco = brancos / total * 100
+            const percentNulo = nulos / total * 100
+            const percentValido = validos / total * 100
+
+            console.log("Brancos" + percentBranco)
+            console.log("Nulos" + percentNulo)
+            console.log("Válidos" + percentValido)
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
